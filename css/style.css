@@ -48,21 +48,48 @@ header {
 }
 
 .intro-section {
-    width: 400px;
-    height: 200px;
-    background-color: rosybrown;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
+    /* * Debug * */
+    width: 700px;
+    height: 300px;
+    background-color: rosybrown;
 }
 .section-2 {
     display: flex;
     /* Debug */
     height: 400px;
-    background-color: aquamarine;
+    background-color: white;
     justify-content: center;
     align-items: center;
- 
+}
+
+.section-3 {
+    display: flex;
+    /* Debug */
+    height: 400px;
+    background-color: grey;
+    justify-content:center;
+    align-items:center;
+}
+
+.section-4 {
+    display: flex;
+    /* Debug */
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 {
+    display: flex;
+    /* Debug */
+    height: 700px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
 
 .blue-square {
@@ -80,7 +107,7 @@ header {
     /* Debug */
     background-color: lightsalmon;
     height: 300px;
-    width: 500px;
+    width: 600px;
     justify-content: center;
 }
 
@@ -88,9 +115,22 @@ header {
 .container-section-2 {
     display: flex;
     width: 80%;
+    justify-content: space-between;
 }
 
+.container-section-3 {
+    display: flex;
+    width: 80%;
+    flex-direction: row-reverse;
+}
 
-
-/* UTILITIES */
-
+.container-section-4 {
+    display: flex;
+    width: 80%;
+}
+.container-section-5 {
+    display: flex;
+    width: 80%;
+    background-color: green;
+    height: 600px;
+}
