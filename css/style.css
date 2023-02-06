@@ -87,7 +87,7 @@ header {
     display: flex;
     /* Debug */
     height: 700px;
-    background-color: grey;
+    background-color: lightgray;
     justify-content: center;
     align-items: center;
 }
@@ -133,4 +133,51 @@ header {
     width: 80%;
     background-color: green;
     height: 600px;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background-color: grey;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.column1 {
+    width: 400px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.column2 {
+    width: 200px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+.column3 {
+    width: 200px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+.column4 {
+    width: 200px;
+    background-color: lightseagreen;
+    border: 1px solid black;
+}
+
+.column5 {
+    width: 200px;
+    background-color: lightseagreen;
+    border: 1px solid black;
 }
