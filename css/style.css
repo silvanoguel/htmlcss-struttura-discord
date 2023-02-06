@@ -35,7 +35,60 @@ header {
 }
 
 
+/* MAIN */
 
+.section-1 {
+    display: flex;
+    /* Debug */
+    background-color: blue;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.intro-section {
+    width: 400px;
+    height: 200px;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 {
+    display: flex;
+    /* Debug */
+    height: 400px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.blue-square {
+    display: flex;
+    /* Debug */
+    background-color: lightskyblue;
+    height: 300px;
+    width: 800px;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.rose-square {
+    display: flex;
+    /* Debug */
+    background-color: lightsalmon;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+}
+
+
+.container-section-2 {
+    display: flex;
+    width: 80%;
+}
 
 
 
